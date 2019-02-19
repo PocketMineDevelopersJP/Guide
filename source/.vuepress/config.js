@@ -23,7 +23,9 @@ module.exports = {
         editLinkText: "GitHubでこのページを編集する。",
         lastUpdated: "最終更新日",
         nav: require("./nav/ja-JP/nav"),
-        sidebar: {}
+        sidebar: {
+          '/guide/': require('./sidebar/community')('ガイド')
+        }
       },
       "/en-US/": {
         label: "English",
