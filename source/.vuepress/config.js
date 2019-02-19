@@ -34,14 +34,5 @@ module.exports = {
         sidebar: {}
       }
     }
-  },
-  plugins: [
-    [
-      "@limdongjin/vuepress-plugin-simple-seo",
-      {
-        root_url: "https://discord.mcbe.jp",
-        default_site_name: "discord.mcbe.jp"
-      }
-    ]
-  ]
+  }
 };

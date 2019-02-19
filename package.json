@@ -8,7 +8,6 @@
     "dev": "vuepress dev source"
   },
   "devDependencies": {
-    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
     "vuepress": "^0.14.9"
   }
 }
