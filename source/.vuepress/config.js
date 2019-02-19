@@ -19,7 +19,7 @@ module.exports = {
     locales: {
       "/": {
         label: "日本語",
-        selectText: "言語",
+        selectText: "Languages",
         editLinkText: "GitHubでこのページを編集する。",
         lastUpdated: "最終更新日",
         nav: require("./nav/ja-JP/nav"),
