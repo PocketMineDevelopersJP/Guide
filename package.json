@@ -1,0 +1,14 @@
+{
+  "name": "guide",
+  "version": "1.0.0",
+  "repository": "https://github.com/PocketMineDevelopersJP/Guide.git",
+  "author": "PocketMineDevelopersJP",
+  "scripts": {
+    "build": "vuepress build source",
+    "dev": "vuepress dev source"
+  },
+  "devDependencies": {
+    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
+    "vuepress": "^0.14.9"
+  }
+}
