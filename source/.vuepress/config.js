@@ -2,13 +2,13 @@ module.exports = {
   locales: {
     "/": {
       lang: "ja-JP",
-      title: "discord.mcbe.jp",
+      title: "server.mcbe.jp",
       description:
         "Minecraft:BedrockEdition(統合版)向けの、PocketMine-MP等のサーバーソフトウェアのプラグイン開発者向けコミュニティです。"
     },
     "/en-US/": {
       lang: "en-US",
-      title: "discord.mcbe.jp",
+      title: "server.mcbe.jp",
       description: "..."
     }
   },
