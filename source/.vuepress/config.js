@@ -1,4 +1,23 @@
 module.exports = {
+  head: [
+    ['meta', { charset: 'utf-8' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+    ['meta', { name: 'keywords', content: 'PocketMine,PocketMine-MP,PMMP,php,discord' }],
+    ['meta', { name: 'author', content: 'InkoHX' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:url', content: 'http://server.mcbe.jp' }],
+    ['meta', { name: 'twitter:image', content: 'http://server.mcbe.jp/icon.png' }],
+    ['meta', { name: 'twitter:site', content: '@InkoHX' }],
+    ['meta', { name: 'twitter:creator', content: '@InkoHX' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#bcbcbc' }],
+    ['meta', { name: 'theme-color', content: '#bcbcbc' }],
+    ['meta', { property: 'og:title', content: 'server.mcbe.jp'}],
+    ['meta', { property: 'og:site_name', content: 'server.mcbe.jp'}],
+    ['meta', { property: 'og:url', content: 'http://server.mcbe.jp'}],
+    ['meta', { property: 'og:image', content: 'http://server.mcbe.jp/icon.png' }],
+    ['meta', { property: 'og:type', content: 'site' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'http://server.mcbe.jp/icon.png' }]
+  ],
   locales: {
     "/": {
       lang: "ja-JP",
