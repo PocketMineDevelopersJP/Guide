@@ -2,7 +2,7 @@ module.exports = {
   head: [
     ["meta", { charset: "utf-8" }],
     ["meta", { name: "twitter:card", content: "summary" }],
-    ["meta", { name: "theme-color", content: "#bcbcbc" }],
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "og:title", content: "server.mcbe.jp" }],
     ["meta", { name: "og:url", content: "http://server.mcbe.jp" }],
     ["meta", { name: "og:image", content: "http://server.mcbe.jp/icon.png" }],
