@@ -1,22 +1,14 @@
 module.exports = {
   head: [
-    ['meta', { charset: 'utf-8' }],
-    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
-    ['meta', { name: 'keywords', content: 'PocketMine,PocketMine-MP,PMMP,php,discord' }],
-    ['meta', { name: 'author', content: 'InkoHX' }],
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:url', content: 'http://server.mcbe.jp' }],
-    ['meta', { name: 'twitter:image', content: 'http://server.mcbe.jp/icon.png' }],
-    ['meta', { name: 'twitter:site', content: '@InkoHX' }],
-    ['meta', { name: 'twitter:creator', content: '@InkoHX' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#bcbcbc' }],
-    ['meta', { name: 'theme-color', content: '#bcbcbc' }],
-    ['meta', { property: 'og:title', content: 'server.mcbe.jp'}],
-    ['meta', { property: 'og:site_name', content: 'server.mcbe.jp'}],
-    ['meta', { property: 'og:url', content: 'http://server.mcbe.jp'}],
-    ['meta', { property: 'og:image', content: 'http://server.mcbe.jp/icon.png' }],
-    ['meta', { property: 'og:type', content: 'site' }],
-    ['link', { rel: 'icon', type: 'image/png', href: 'http://server.mcbe.jp/icon.png' }]
+    ["meta", { charset: "utf-8" }],
+    ["meta", { name: "twitter:card", content: "summary" }],
+    ["meta", { name: "theme-color", content: "#bcbcbc" }],
+    ["meta", { name: "og:title", content: "server.mcbe.jp" }],
+    ["meta", { name: "og:url", content: "http://server.mcbe.jp" }],
+    ["meta", { name: "og:image", content: "http://server.mcbe.jp/icon.png" }],
+    ["meta", { name: "og:type", content: "website" }],
+    ["meta", { name: "og:locale", content: "ja_JP" }],
+    ["link", { rel: "icon", href: "http://server.mcbe.jp/icon.png" }]
   ],
   locales: {
     "/": {
@@ -33,6 +25,9 @@ module.exports = {
   },
   themeConfig: {
     repo: "PocketMineDevelopersJP/Guide",
+    docsRepo: "PocketMineDevelopersJP/Guide",
+    repoLabel: "GitHub",
+    docsBranch: "master",
     docsDir: "source",
     editLinks: true,
     locales: {
@@ -43,7 +38,7 @@ module.exports = {
         lastUpdated: "最終更新日",
         nav: require("./nav/ja-JP/nav"),
         sidebar: {
-          '/guide/': require('./sidebar/community')('ガイド')
+          "/guide/": require("./sidebar/community")("ガイド")
         }
       },
       "/en-US/": {
