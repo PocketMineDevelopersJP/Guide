@@ -4,11 +4,11 @@ module.exports = {
     ["meta", { name: "twitter:card", content: "summary" }],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "og:title", content: "server.mcbe.jp" }],
-    ["meta", { name: "og:url", content: "http://server.mcbe.jp" }],
-    ["meta", { name: "og:image", content: "http://server.mcbe.jp/icon.png" }],
+    ["meta", { name: "og:url", content: "https://server.mcbe.jp" }],
+    ["meta", { name: "og:image", content: "https://server.mcbe.jp/icon.png" }],
     ["meta", { name: "og:type", content: "website" }],
     ["meta", { name: "og:locale", content: "ja_JP" }],
-    ["link", { rel: "icon", href: "http://server.mcbe.jp/icon.png" }]
+    ["link", { rel: "icon", href: "https://server.mcbe.jp/icon.png" }]
   ],
   locales: {
     "/": {
@@ -20,7 +20,7 @@ module.exports = {
     "/en-US/": {
       lang: "en-US",
       title: "server.mcbe.jp",
-      description: "..."
+      description: "A plugin developer community for server software such as PocketMine-MP for Minecraft: BedrockEdition."
     }
   },
   themeConfig: {
@@ -34,7 +34,7 @@ module.exports = {
       "/": {
         label: "日本語",
         selectText: "Languages",
-        editLinkText: "GitHubでこのページを編集する。",
+        editLinkText: "GitHubでこのページを編集",
         lastUpdated: "最終更新日",
         nav: require("./nav/ja-JP/nav"),
         sidebar: {
