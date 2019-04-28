@@ -4,7 +4,7 @@ module.exports = function(name) {
             title: name,
             collapsable: false,
             children: [
-                'introduction'
+                // NONE
             ]
         }
     ]
