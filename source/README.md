@@ -1,9 +1,14 @@
 ---
 home: true
-heroText: server.mcbe.jp
-tagline: Discordで発足した、Minecraft:BedrockEdition(統合版)向けの、PocketMine-MP等のサーバーソフトウェアのプラグイン開発者向けコミュニティです。
-actionText: server.mcbe.jp とは
-actionLink: /guide/
+title: ホーム
+heroImage: /icon.png
+actions:
+  - text: もっと詳しく
+    link: /guide
+    type: primary
+  - text: Discordに参加
+    link: https://discord.gg/U9SJAHU
+    type: secondary
 features:
   - title: Discord
     details: このコミュニティでは、DiscordとMCBEForumとで連携して、より持続的な情報の更新が出来るように準備しています。
