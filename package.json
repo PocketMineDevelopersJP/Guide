@@ -4,11 +4,14 @@
   "repository": "https://github.com/PocketMineDevelopersJP/Guide.git",
   "author": "PocketMineDevelopersJP",
   "scripts": {
+    "prepare": "husky install",
     "build": "vuepress build source",
     "dev": "vuepress dev source",
-    "format": "prettier --write ."
+    "format": "prettier --write \"*.{js,md,yml,json}\""
   },
   "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.2",
     "prettier": "^2.5.1",
     "vuepress": "next"
   }
