@@ -1,10 +1,11 @@
 {
   "name": "guide",
+  "private": true,
   "packageManager": "yarn@3.1.1",
   "repository": "https://github.com/PocketMineDevelopersJP/Guide.git",
   "author": "PocketMineDevelopersJP",
   "scripts": {
-    "prepare": "husky install",
+    "postinstall": "husky install",
     "build": "vuepress build source",
     "dev": "vuepress dev source",
     "format": "prettier --write \"*.{js,md,yml,json}\""
