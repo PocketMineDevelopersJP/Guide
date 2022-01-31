@@ -13,3 +13,4 @@
 # VuePress
 .cache/
 .temp/
+dist/
