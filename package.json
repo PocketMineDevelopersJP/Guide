@@ -5,9 +5,11 @@
   "author": "PocketMineDevelopersJP",
   "scripts": {
     "build": "vuepress build source",
-    "dev": "vuepress dev source"
+    "dev": "vuepress dev source",
+    "format": "prettier --write ."
   },
   "devDependencies": {
+    "prettier": "^2.5.1",
     "vuepress": "next"
   }
 }

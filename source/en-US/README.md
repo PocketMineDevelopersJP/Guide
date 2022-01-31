@@ -13,12 +13,12 @@ To achieve these goals, we are currently working on the following projects:
 ## Work in progress
 
 - This site (server.mcbe.jp)  
-It is a site for project progress report and sharing.
+  It is a site for project progress report and sharing.
 
 - Discord community  
-We mainly ask questions/answers regarding chat and plugin development.
+  We mainly ask questions/answers regarding chat and plugin development.
 
 ## Linked site
 
 - [MCBE Forum](https://forum.mcbe.jp)  
-The domain used by this community, `server.mcbe.jp`, was borrowed from the owner of the forum, Setsuna.
+  The domain used by this community, `server.mcbe.jp`, was borrowed from the owner of the forum, Setsuna.
