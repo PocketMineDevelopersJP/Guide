@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 最初に
+# はじめに
 
 ## 目標
 
