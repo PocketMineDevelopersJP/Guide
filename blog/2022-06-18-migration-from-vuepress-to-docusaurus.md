@@ -3,13 +3,8 @@
 title: VuePressからDocusaurusへ移行しました！
 authors: ['inkohx']
 tags: ['更新情報']
-draft: true
 ---
 
-**server.mcbe.jp**を VuePress から Docusaurus に移行しました！
+**server.mcbe.jp** を VuePress から Docusaurus に移行しました！
 
-<!-- truncate -->
-
-## メインページがイケイケに
-
-## ブログ
+それだけ！
