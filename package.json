@@ -2,7 +2,7 @@
   "name": "server-mcbe-jp",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "yarn@3.1.1",
+  "packageManager": "yarn@3.2.1",
   "repository": "https://github.com/PocketMineDevelopersJP/Guide.git",
   "author": "PocketMineDevelopersJP",
   "contributors": [
