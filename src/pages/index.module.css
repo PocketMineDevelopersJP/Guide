@@ -1,0 +1,38 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.hero > div {
+  justify-self: center;
+  align-self: center;
+}
+
+.title {
+  font-size: 3.25rem;
+}
+
+.paragraph {
+  font-size: 1.75rem;
+}
+
+.chat > div:not(:first-child) {
+  margin-top: 2.5rem;
+}
+
+.messages > div:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .chat {
+    display: none;
+  }
+}

@@ -1,4 +1,4 @@
 /.yarn/
-.cache/
-.temp/
-dist/
+/build/
+/.docusaurus/
+/.cache-loader/
