@@ -32,6 +32,7 @@
   "truncate": {
     "body": "<!-- truncate -->",
     "scope": "markdown,mdx",
+    "prefix": ">truncate",
     "description": "要約"
   }
 }
