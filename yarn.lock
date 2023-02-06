@@ -2990,6 +2990,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@docusaurus/module-type-aliases@npm:2.3.1":
+  version: 2.3.1
+  resolution: "@docusaurus/module-type-aliases@npm:2.3.1"
+  dependencies:
+    "@docusaurus/react-loadable": 5.5.2
+    "@docusaurus/types": 2.3.1
+    "@types/history": ^4.7.11
+    "@types/react": "*"
+    "@types/react-router-config": "*"
+    "@types/react-router-dom": "*"
+    react-helmet-async: "*"
+    react-loadable: "npm:@docusaurus/react-loadable@5.5.2"
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: 74f799f81455dc8ff3e6edf07428996764014c2c7b416e6b5d160af15f00ad3aa1ab75dee5356645ec7f2ea832fb2aca6e9a32b19d64abeb9e3d57c4195f1e50
+  languageName: node
+  linkType: hard
+
 "@docusaurus/plugin-content-blog@npm:2.0.1":
   version: 2.0.1
   resolution: "@docusaurus/plugin-content-blog@npm:2.0.1"
@@ -3279,6 +3298,25 @@ __metadata:
     react: ^16.8.4 || ^17.0.0
     react-dom: ^16.8.4 || ^17.0.0
   checksum: bb72dbdba5e5a39d9ebdbfe449f52cd011be62eb1f47176632d13b0800626441551f48b018e239a6ce3d63e474598e6c6f7730aa235fc0b0c653be546cc28875
+  languageName: node
+  linkType: hard
+
+"@docusaurus/types@npm:2.3.1":
+  version: 2.3.1
+  resolution: "@docusaurus/types@npm:2.3.1"
+  dependencies:
+    "@types/history": ^4.7.11
+    "@types/react": "*"
+    commander: ^5.1.0
+    joi: ^17.6.0
+    react-helmet-async: ^1.3.0
+    utility-types: ^3.10.0
+    webpack: ^5.73.0
+    webpack-merge: ^5.8.0
+  peerDependencies:
+    react: ^16.8.4 || ^17.0.0
+    react-dom: ^16.8.4 || ^17.0.0
+  checksum: 91e52f37b97964112aa0d50ee4a6f534d7da941443af5ddc96418817c6ce532a98c73e67045ac703b582c7ed703ebb360205eec30da7f738c0105f2b3ae1a246
   languageName: node
   linkType: hard
 
@@ -10858,7 +10896,7 @@ __metadata:
   resolution: "server-mcbe-jp@workspace:."
   dependencies:
     "@docusaurus/core": 2.0.1
-    "@docusaurus/module-type-aliases": 2.0.1
+    "@docusaurus/module-type-aliases": 2.3.1
     "@docusaurus/preset-classic": 2.0.1
     "@mdx-js/react": ^1.6.22
     "@tsconfig/docusaurus": ^1.0.6
